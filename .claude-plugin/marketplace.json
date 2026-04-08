@@ -1,0 +1,13 @@
+{
+  "name": "ai-skill-test-bdd",
+  "owner": {
+    "name": "guillempuche",
+    "url": "https://github.com/guillempuche"
+  },
+  "plugins": [
+    {
+      "name": "test-bdd",
+      "source": "./"
+    }
+  ]
+}
