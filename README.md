@@ -1,6 +1,6 @@
 # ai-skill-test-bdd
 
-Generate BDD-style test files that document behavior with GIVEN/WHEN/THEN comments and test only public API and observable outcomes. Language and framework agnostic, with patterns and examples tuned f
+Generate BDD-style test files that document behavior with GIVEN/WHEN/THEN comments and test only public API and observable outcomes. Language and framework agnostic, with patterns and examples tuned for TypeScript + vitest + testing-library (hooks, components, utilities, constants).
 
 ## Install
 
