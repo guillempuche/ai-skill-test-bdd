@@ -4,6 +4,16 @@ Generate BDD-style test files with GIVEN/WHEN/THEN comments that test only publi
 
 ## Install
 
+### Any agent
+
+The [`skills`](https://github.com/vercel-labs/skills) CLI installs into Codex, OpenCode, Gemini CLI, Cursor, Copilot, Claude Code, and 70+ other agents:
+
+```bash
+npx skills add guillempuche/ai-skill-test-bdd
+```
+
+### Claude Code
+
 ```bash
 # Add marketplace (uses repo slug)
 /plugin marketplace add guillempuche/ai-skill-test-bdd
@@ -11,6 +21,16 @@ Generate BDD-style test files with GIVEN/WHEN/THEN comments that test only publi
 # Install plugin (plugin name is topic-only)
 /plugin install test-bdd@guillempuche-ai-skill-test-bdd
 ```
+
+### Gemini CLI
+
+```bash
+gemini skills install https://github.com/guillempuche/ai-skill-test-bdd.git --path skills/test-bdd
+```
+
+### Manual
+
+Copy `skills/test-bdd` into `.agents/skills/` (Codex, Gemini CLI, OpenCode, Mastra Code, Cursor, Copilot) or `.claude/skills/` (Claude Code).
 
 ## Part of AI Standards
 
