@@ -1,0 +1,21 @@
+{
+  "name": "ai-skill-test-bdd",
+  "interface": {
+    "displayName": "ai-skill-test-bdd"
+  },
+  "plugins": [
+    {
+      "name": "test-bdd",
+      "description": "Generate BDD-style test files with GIVEN/WHEN/THEN comments that test only public API and observable outcomes; tuned for, but not limited to, TypeScript + vitest + testing-library. Use when asked to write or add tests for a specific file or module.",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

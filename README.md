@@ -12,6 +12,13 @@ The [`skills`](https://github.com/vercel-labs/skills) CLI installs into Codex, O
 npx skills add guillempuche/ai-skill-test-bdd
 ```
 
+### Codex CLI
+
+```bash
+codex plugin marketplace add guillempuche/ai-skill-test-bdd
+codex plugin add test-bdd@ai-skill-test-bdd
+```
+
 ### Claude Code
 
 ```bash
@@ -26,6 +33,12 @@ npx skills add guillempuche/ai-skill-test-bdd
 
 ```bash
 gemini skills install https://github.com/guillempuche/ai-skill-test-bdd.git --path skills/test-bdd
+```
+
+### Antigravity
+
+```bash
+agy plugin install https://github.com/guillempuche/ai-skill-test-bdd
 ```
 
 ### Manual
